@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-container {
+    background: #ffffff;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 25px 30px;
+    width: 90%;
+    max-width: 700px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    color: #4e73df;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 1rem;
+    color: #858796;
+    margin-bottom: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    color: #5a5c69;
+}
+
+input {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #d1d3e2;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #6e707e;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    border-color: #4e73df;
+    outline: none;
+}
+
+.btn {
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-primary {
+    background-color: #4e73df;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #2e59d9;
+}
+
+.divider {
+    border: 0;
+    height: 1px;
+    background: #d1d3e2;
+    margin: 20px 0;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.table thead th {
+    background-color: #f8f9fc;
+    color: #4e73df;
+    padding: 10px 15px;
+    text-align: left;
+    border-bottom: 2px solid #d1d3e2;
+}
+
+.table tbody td {
+    padding: 10px 15px;
+    color: #5a5c69;
+}
+
+.table tbody tr:nth-child(odd) {
+    background-color: #f8f9fa;
+}
+
+.table tbody tr:hover {
+    background-color: #e9ecef;
+}
+
+.table .btn {
+    font-size: 0.8rem;
+    padding: 5px 10px;
+}
+
+.btn-visit {
+    background-color: #1cc88a;
+    color: #fff;
+}
+
+.btn-visit:hover {
+    background-color: #17a673;
+}
+
+.btn-delete {
+    background-color: #e74a3b;
+    color: #fff;
+}
+
+.btn-delete:hover {
+    background-color: #d33a2d;
+}
